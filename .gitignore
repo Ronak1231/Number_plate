@@ -1,0 +1,48 @@
+# 🚫 Prevent committing large model and binary files
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite
+*.pb
+*.weights
+*.ckpt
+
+# 🚫 Prevent committing DLL and LIB files
+*.dll
+*.lib
+*.so
+*.dylib
+
+# 🧪 Prevent committing test logs or large data outputs
+*.log
+*.csv
+*.tsv
+*.json
+*.db
+*.sqlite3
+
+# 💾 Skip temp archives or output files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 📸 Skip raw image or video data (optional)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# 🧠 Skip large AI/ML model folders
+models/
+checkpoints/
+runs/
+output/
+saved_models/
+weights/
+data/

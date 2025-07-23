@@ -1,0 +1,20 @@
+# Main App
+streamlit
+pandas
+openpyxl
+numpy
+opencv-python
+pytesseract
+fpdf
+Pillow
+torch
+torchvision
+torchaudio
+tqdm
+
+# For YOLOv5 Training
+matplotlib
+pyyaml
+seaborn
+scipy
+gitpython
